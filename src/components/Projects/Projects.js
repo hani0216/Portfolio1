@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import devops from "../../Assets/Projects/DEvops.png";
 
 function Projects() {
   return (
@@ -33,9 +34,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={devops}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Pipeline CI/CD"
               description="This project aims to establish a Continuous Integration/Continuous Deployment (CI/CD) pipeline leveraging Git ,GitHub, Docker Compose, Docker Hub, Jenkins, and Kubernetes. The primary goal is to automate infrastructure provisioning and administration tasks  ."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
@@ -74,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="cafe-website"
               description="This is a visually captivating advertising website crafted exclusively with HTML and CSS. Its purpose is to showcase a café, its services, and facilitate customer interactions through features like online reservations and contact forms."
